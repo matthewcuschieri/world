@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+.human,
+.tokyo {
+  display: none;
+}
+img,
+.human,
+.tokyo {
+  grid-column: 1;
+  max-width: 50vw;
+  padding-bottom: 0;
+  vertical-align: middle;
+  box-sizing: content-box;
+  height: auto;
+}
+#human-container {
+  display: block;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+html {
+  font-family: Helvetica, sans-serif;
+  background-color: whitesmoke;
+  font-stretch: expanded;
+}
+#heading {
+  background-color: blue;
+  color: white;
+  transform: scale(1, 1.4);
+  width: fit-content;
+  display: flex;
+}
+#link {
+  margin-left: auto;
+  margin-right: 0;
+  flex-direction: column-reverse;
+}
+a:link {
+  background-color: blue;
+  color: white;
+  transform: scale(1, 1.1);
+  width: fit-content;
+
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+#gridsplit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  border: red;
+}
+#kunstahle {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 4;
+}
+#eventposters {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 5;
+}
+#humaninfrastructure {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 6;
+  position: relative;
+  margin: auto;
+}
+#hmm {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 7;
+}
+#illo {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 8;
+}
+#info {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 9;
+}
+#tokyo {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 10;
+  position: relative;
+  margin: auto;
+}
+
+#briefbio {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 0.8rem;
+  transform: scale(1, 1.2);
+}
