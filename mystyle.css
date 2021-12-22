@@ -50,6 +50,9 @@ html {
   background-color: whitesmoke;
   font-stretch: expanded;
 }
+header {
+  display: flex;
+}
 #heading {
   background-color: blue;
   color: white;
@@ -58,6 +61,7 @@ html {
   display: flex;
 }
 #link {
+  display: flex-end;
   margin-left: auto;
   margin-right: 0;
   flex-direction: column-reverse;
