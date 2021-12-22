@@ -59,32 +59,19 @@ header {
   display: flex;
 }
 #aboutpagelink {
-  background-color: gray;
+  background-color: blue;
 }
 .social {
   /* background-color: black; */
   line-height: 1.4rem;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: black;
   transform: scale(1, 1.4);
   width: fit-content;
+  grid-column: 1;
+  grid-row: 4;
 }
-#intro {
-  line-height: 1.2rem;
-  font-size: 1.4rem;
-  color: black;
-  transform: scale(1, 1.4);
-  width: fit-content;
-  display: flex;
-}
-/* #work {
-  line-height: 1.2rem;
-  font-size: 1.4rem;
-  color: black;
-  transform: scale(1, 1.4);
-  width: fit-content;
-  display: flex;
-} */
+
 #heading {
   background-color: blue;
   color: white;
@@ -92,15 +79,21 @@ header {
   width: fit-content;
   display: flex;
 }
-/* #firstline {
-  display: inline-flex;
-} */
+#firstline {
+  background-color: blue;
+}
 .linkabout {
-  background-color: blue !important;
-  color: white;
+  background-color: none;
+  color: black;
   transform: scale(1, 1.4);
   width: fit-content;
-  margin-bottom: 5%;
+  grid-column: 1;
+  max-width: 50vw;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+a.linkabout {
+  background-color: blue !important;
 }
 #linkmain {
   background-color: gray;
