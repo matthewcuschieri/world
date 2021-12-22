@@ -236,7 +236,7 @@ a.linkabout:visited {
   }
 }
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 600px) and (max-width: 799px) {
+@media (max-width: 799px) {
   #gridsplit {
     display: grid;
     grid-template-columns: 1fr;
