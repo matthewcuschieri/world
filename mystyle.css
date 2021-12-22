@@ -53,12 +53,45 @@ html {
 header {
   display: flex;
 }
+#social {
+  line-height: 1.4rem;
+  font-size: 1rem;
+  color: black;
+  transform: scale(1, 1.4);
+  width: fit-content;
+}
+#intro {
+  line-height: 1.2rem;
+  font-size: 1.4rem;
+  color: black;
+  transform: scale(1, 1.4);
+  width: fit-content;
+  display: flex;
+}
+/* #work {
+  line-height: 1.2rem;
+  font-size: 1.4rem;
+  color: black;
+  transform: scale(1, 1.4);
+  width: fit-content;
+  display: flex;
+} */
 #heading {
   background-color: blue;
   color: white;
   transform: scale(1, 1.4);
   width: fit-content;
   display: flex;
+}
+/* #firstline {
+  display: inline-flex;
+} */
+#linkabout {
+  background-color: blue;
+  color: white;
+  transform: scale(1, 1.4);
+  width: fit-content;
+  margin-bottom: 5%;
 }
 #link {
   transform: scale(1, 1.4);
