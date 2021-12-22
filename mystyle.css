@@ -18,6 +18,11 @@ img,
 #human-container {
   display: block;
 }
+#gifline {
+  display: flex;
+  width: fit-content;
+}
+
 .prev,
 .next {
   cursor: pointer;
@@ -99,6 +104,9 @@ header {
 }
 #linkmain {
   background-color: gray;
+}
+#kunstgif {
+  max-height: 60vh;
 }
 #link {
   /* background-color: gray; */
