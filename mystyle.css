@@ -59,7 +59,7 @@ header {
   display: flex;
 }
 #aboutpagelink {
-  background-color: blue;
+  background-color: none;
 }
 .social {
   /* background-color: black; */
@@ -81,6 +81,7 @@ header {
 }
 #firstline {
   background-color: blue;
+  color: white;
 }
 .linkabout {
   background-color: none;
@@ -96,12 +97,13 @@ a.linkabout {
   background-color: blue !important;
 }
 #linkmain {
-  background-color: gray;
+  background-color: none;
 }
 #kunstgif {
   max-height: 60vh;
 }
 #link {
+  color: black;
   /* background-color: gray; */
   transform: scale(1, 1.4);
   display: flex-end;
@@ -111,14 +113,14 @@ a.linkabout {
 }
 a:link {
   /* background-color: gray; */
-  color: white;
+  color: black;
   transform: scale(1, 1.1);
   width: fit-content;
 
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a.linkabout:link {
   background-color: blue;
