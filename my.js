@@ -22,3 +22,8 @@ function showSlides(n, no) {
   }
   x[slideIndex[no] - 1].style.display = "block";
 }
+
+function myFunction() {
+  var element = document.getElementById("matthewcuschieri");
+  element.classList.toggle("aboutmain");
+}
