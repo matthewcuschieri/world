@@ -53,7 +53,11 @@ html {
 header {
   display: flex;
 }
-#social {
+#aboutpagelink {
+  background-color: gray;
+}
+.social {
+  /* background-color: black; */
   line-height: 1.4rem;
   font-size: 1rem;
   color: black;
@@ -86,14 +90,18 @@ header {
 /* #firstline {
   display: inline-flex;
 } */
-#linkabout {
-  background-color: blue;
+.linkabout {
+  background-color: blue !important;
   color: white;
   transform: scale(1, 1.4);
   width: fit-content;
   margin-bottom: 5%;
 }
+#linkmain {
+  background-color: gray;
+}
 #link {
+  /* background-color: gray; */
   transform: scale(1, 1.4);
   display: flex-end;
   margin-left: auto;
@@ -101,7 +109,7 @@ header {
   flex-direction: column-reverse;
 }
 a:link {
-  background-color: blue;
+  /* background-color: gray; */
   color: white;
   transform: scale(1, 1.1);
   width: fit-content;
@@ -110,6 +118,15 @@ a:link {
 }
 a:visited {
   color: white;
+}
+a.linkabout:link {
+  background-color: blue;
+}
+a.linkabout {
+  background-color: blue;
+}
+a.linkabout:visited {
+  background-color: blue;
 }
 #gridsplit {
   display: grid;
