@@ -58,6 +58,26 @@ html {
 header {
   display: flex;
 }
+
+.brian {
+  cursor: url("bbsmall.png"), auto;
+  text-decoration: underline;
+}
+.brian:hover {
+  /* cursor: url("bb.png"), auto; */
+  text-decoration: none;
+  width: auto;
+}
+
+.ben {
+  cursor: url("blrsmall.png"), auto;
+  text-decoration: underline;
+}
+.ben:hover {
+  /* cursor: url("bb.png"), auto; */
+  text-decoration: none;
+  width: auto;
+}
 #aboutpagelink {
   background-color: none;
 }
