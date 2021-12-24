@@ -20,8 +20,19 @@ img,
   display: block;
 }
 #gifline {
-  display: flex;
-  width: fit-content;
+  grid-column: 1;
+  max-width: 50vw;
+  padding-bottom: 0;
+  vertical-align: middle;
+  box-sizing: content-box;
+  height: auto;
+  width: 50vw;
+}
+#posterkunst img {
+  height: 35rem;
+  box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  margin-bottom: 2%;
+  margin-top: 5%;
 }
 
 .prev,
@@ -135,6 +146,7 @@ a.linkabout {
 }
 #kunstgif {
   max-height: 60vh;
+  max-width: 50vw;
 }
 #link {
   color: black;
@@ -256,7 +268,7 @@ a.linkabout:visited {
     grid-column: 1;
     max-width: 100vw;
     padding-bottom: 0;
-    padding-top: 5vh;
+    /* padding-top: 5vh; */
   }
   #tokyo,
   #humaninfrastructure,
@@ -264,7 +276,7 @@ a.linkabout:visited {
   #norwood,
   #prov {
     max-width: 100vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
   }
 }
 /* // Medium devices (tablets, 768px and up) */
@@ -283,7 +295,7 @@ a.linkabout:visited {
     grid-column: 1;
     max-width: 100vw;
     padding-bottom: 0;
-    padding-top: 5vh;
+    /* padding-top: 5vh; */
   }
   #tokyo,
   #humaninfrastructure,
@@ -291,7 +303,7 @@ a.linkabout:visited {
   #norwood,
   #prov {
     max-width: 100vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
   }
 }
 
@@ -311,7 +323,7 @@ a.linkabout:visited {
     grid-column: 1;
     max-width: 100vw;
     padding-bottom: 0;
-    padding-top: 5vh;
+    /* padding-top: 5vh; */
   }
   #tokyo,
   #humaninfrastructure,
@@ -319,6 +331,6 @@ a.linkabout:visited {
   #norwood,
   #prov {
     max-width: 100vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
   }
 }
