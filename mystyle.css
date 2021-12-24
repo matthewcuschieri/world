@@ -26,7 +26,7 @@ img,
 
 .prev,
 .next {
-  cursor: pointer;
+  cursor: url(arrow.png), auto;
   position: absolute;
   top: 50%;
   width: auto;
@@ -64,6 +64,13 @@ header {
   cursor: url("bbsmall.png"), auto;
 
   text-decoration: underline;
+}
+#designlink {
+  text-decoration: underline;
+}
+#designlink:hover {
+  text-decoration: none;
+  width: auto;
 }
 .brian:hover {
   /* cursor: url("bb.png"), auto; */
@@ -119,7 +126,12 @@ a.linkabout {
   background-color: blue !important;
 }
 #linkmain {
-  background-color: none;
+  border-style: 1rem black solid;
+  background-color: white;
+  border-radius: 50%;
+
+  width: 100%;
+  height: 100%;
 }
 #kunstgif {
   max-height: 60vh;
