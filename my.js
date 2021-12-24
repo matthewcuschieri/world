@@ -1,8 +1,10 @@
-var slideIndex = [1, 1, 1, 1];
-var slideId = ["kunst", "human", "tokyo"];
+var slideIndex = [1, 1, 1, 1, 1, 1, 1];
+var slideId = ["kunst", "human", "tokyo", "providence", "norwood"];
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
