@@ -26,7 +26,7 @@ img,
 
 .prev,
 .next {
-  cursor: url(arrow.png), auto;
+  cursor: url(images/arrow.png), auto;
   position: absolute;
   top: 50%;
   width: auto;
@@ -61,7 +61,7 @@ header {
 }
 
 .brian {
-  cursor: url("bbsmall.png"), auto;
+  cursor: url("images/bbsmall.png"), auto;
 
   text-decoration: underline;
 }
@@ -79,7 +79,7 @@ header {
 }
 
 .ben {
-  cursor: url("blrsmall.png"), auto;
+  cursor: url("images/blrsmall.png"), auto;
   text-decoration: underline;
 }
 .ben:hover {
@@ -214,6 +214,22 @@ a.linkabout:visited {
   grid-column: 1;
   max-width: 50vw;
   grid-row: 10;
+  position: relative;
+  margin: auto;
+}
+#prov {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 11;
+  position: relative;
+  margin: auto;
+}
+#norwood {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 12;
   position: relative;
   margin: auto;
 }
