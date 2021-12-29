@@ -281,11 +281,12 @@ a.linkabout:visited {
     padding-top: 10vh;
   }
   .linkabout {
-    margin-top: 11%;
+    max-width: 100vw;
+    margin-top: 9%;
   }
 }
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 600px) (max-width: 799px) {
+@media (min-width: 600px) and (max-width: 799px) {
   #gridsplit {
     display: grid;
     grid-template-columns: 1fr;
@@ -311,7 +312,8 @@ a.linkabout:visited {
     padding-top: 10vh;
   }
   .linkabout {
-    margin-top: 7%;
+    margin-top: 5%;
+    max-width: 100vw;
   }
 }
 
