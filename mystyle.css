@@ -205,33 +205,37 @@ a.linkabout:visited {
   position: relative;
   margin: auto;
 }
-#hmm {
+#sites {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 7;
+  position: relative;
+  margin: auto;
 }
-#illo {
+video {
+  width: 100%;
+  height: auto;
+}
+#hmm {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 8;
 }
-#info {
+#illo {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 9;
 }
-#tokyo {
+#info {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 10;
-  position: relative;
-  margin: auto;
 }
-#prov {
+#tokyo {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
@@ -239,11 +243,19 @@ a.linkabout:visited {
   position: relative;
   margin: auto;
 }
-#norwood {
+#prov {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 12;
+  position: relative;
+  margin: auto;
+}
+#norwood {
+  padding-top: 20vh;
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 13;
   position: relative;
   margin: auto;
 }
@@ -262,7 +274,7 @@ a.linkabout:visited {
     grid-template-rows: auto;
   }
   img,
-  .human,
+  .sites .human,
   .tokyo,
   .kunst,
   .providence,
@@ -293,7 +305,8 @@ a.linkabout:visited {
     grid-template-rows: auto;
   }
   img,
-  .human,
+  .sites,
+  video .human,
   .tokyo,
   .kunst,
   .providence,
@@ -325,7 +338,7 @@ a.linkabout:visited {
     grid-template-rows: auto;
   }
   img,
-  .human,
+  .sites .human,
   .tokyo,
   .kunst,
   .providence,
