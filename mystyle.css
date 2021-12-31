@@ -10,7 +10,8 @@ img,
 .tokyo,
 .kunst,
 .norwood,
-.providence {
+.providence,
+.sites {
   grid-column: 1;
   max-width: 50vw;
   padding-bottom: 0;
@@ -34,7 +35,7 @@ img,
   height: 35rem;
   box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
   margin-bottom: 2%;
-  margin-top: 5%;
+  box-sizing: content-box;
 }
 
 .prev,
@@ -190,6 +191,8 @@ a.linkabout:visited {
   grid-column: 1;
   max-width: 50vw;
   grid-row: 4;
+  position: relative;
+  margin: auto;
 }
 #eventposters {
   padding-top: 20vh;
@@ -234,6 +237,8 @@ video {
   grid-column: 1;
   max-width: 50vw;
   grid-row: 10;
+  position: relative;
+  margin: auto;
 }
 #tokyo {
   padding-top: 20vh;
@@ -285,6 +290,7 @@ video {
     /* padding-top: 5vh; */
   }
   #tokyo,
+  #sites,
   #humaninfrastructure,
   #kunstahle,
   #norwood,
@@ -317,6 +323,7 @@ video {
     /* padding-top: 5vh; */
   }
   #tokyo,
+  #sites,
   #humaninfrastructure,
   #kunstahle,
   #norwood,
@@ -349,6 +356,7 @@ video {
     /* padding-top: 5vh; */
   }
   #tokyo,
+  #sites,
   #humaninfrastructure,
   #kunstahle,
   #norwood,
