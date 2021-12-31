@@ -272,14 +272,15 @@ video {
   transform: scale(1, 1.2);
 }
 /* // Small devices (landscape phones, 576px and up)// */
-@media (min-width: 400px) and (max-width: 599px) {
+@media (min-width: 10px) and (max-width: 599px) {
   #gridsplit {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
   img,
-  .sites .human,
+  .sites,
+  .human,
   .tokyo,
   .kunst,
   .providence,
@@ -294,7 +295,8 @@ video {
   #humaninfrastructure,
   #kunstahle,
   #norwood,
-  #prov {
+  #prov,
+  #info {
     max-width: 100vw;
     padding-top: 10vh;
   }
@@ -312,7 +314,8 @@ video {
   }
   img,
   .sites,
-  video .human,
+  video,
+  .human,
   .tokyo,
   .kunst,
   .providence,
@@ -327,7 +330,8 @@ video {
   #humaninfrastructure,
   #kunstahle,
   #norwood,
-  #prov {
+  #prov,
+  #info {
     max-width: 100vw;
     padding-top: 10vh;
   }
@@ -345,7 +349,8 @@ video {
     grid-template-rows: auto;
   }
   img,
-  .sites .human,
+  .sites,
+  .human,
   .tokyo,
   .kunst,
   .providence,
@@ -360,7 +365,8 @@ video {
   #humaninfrastructure,
   #kunstahle,
   #norwood,
-  #prov {
+  #prov,
+  #info {
     max-width: 100vw;
     padding-top: 10vh;
   }
