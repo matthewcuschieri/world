@@ -32,9 +32,10 @@ img,
   width: 50vw;
 }
 #posterkunst img {
-  height: 35rem;
+  grid-column: 2;
+  height: 25rem;
   box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-  margin-bottom: 2%;
+  grid-row: 2;
   box-sizing: content-box;
 }
 
@@ -193,6 +194,33 @@ a.linkabout:visited {
   grid-row: 4;
   position: relative;
   margin: auto;
+}
+.kunstinfo {
+  display: none;
+}
+.kunstinfo.designlink {
+  display: block;
+  grid-column: 2;
+  grid-row: 4;
+  width: 45vw;
+  max-width: 45vw;
+  position: relative;
+  margin-top: 20vh;
+  padding: 1rem;
+  border: 1px red solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  max-height: 60vh;
+  box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  overflow: auto;
+}
+.kunstbio {
+  padding: 1rem;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 0.8rem;
+  transform: scale(1, 1.2);
 }
 #eventposters {
   padding-top: 20vh;
