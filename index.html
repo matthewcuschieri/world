@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matthew Cuschieri</title>
     <link rel="stylesheet" href="mystyle.css" />
+    <script src="jquery-3.6.0.min.js"></script>
   </head>
   <header>
     <div id="heading">
@@ -28,24 +29,34 @@
         <div class="kunst" id="gifline">
           <img src="images/Comp 1.gif" id="kunstgif" />
         </div>
-        <div class="kunst" id="posterkunst">
-          <img src="images/kunst .png" />
-        </div>
-        <div class="kunst" id="posterkunst">
-          <img src="images/kunst 2.png" />
-        </div>
-        <div class="kunst" id="posterkunst">
-          <img src="images/kunst 3.png" />
-        </div>
+
         <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 
         <p id="briefbio">
-          <span id="designlink"
-            ><a href="kunstwhallepage.html">Kunstwhalle Museum</a> </span
-          >proposed identity project for a theoretical speaker series at the
-          Kunstwhalle Museum, 2021
+          <button id="designlink">Kunstwhalle Museum</button>proposed identity
+          project for a theoretical speaker series at the Kunstwhalle Museum,
+          2021
         </p>
+      </div>
+      <div class="kunstinfo">
+        <p class="kunstbio">
+          Proposed Lecture Series Identity for the ‘Kunstwhalle Museum.’ Each
+          month is given a group of 3 separate symbols and color on the
+          headlining text to delineate between themselves and to give individual
+          identities for each speaker of a given month. Variation also occurs in
+          the placement of the line curves, gradient circles, and large gradient
+          shape in the background of each poster.
+        </p>
+        <div id="posterkunst">
+          <img src="images/kunst .png" />
+        </div>
+        <div id="posterkunst">
+          <img src="images/kunst 2.png" />
+        </div>
+        <div id="posterkunst">
+          <img src="images/kunst 3.png" />
+        </div>
       </div>
       <div id="eventposters">
         <img src="images/2021 design portfolio2.png" alt="event" />
@@ -197,4 +208,5 @@
     </div>
   </body>
   <script type="text/javascript" src="my.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
 </html>
