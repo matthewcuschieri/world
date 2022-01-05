@@ -12,7 +12,7 @@ img,
 .norwood,
 .providence,
 .sites {
-  grid-column: 1;
+  /* grid-column: 1; */
   max-width: 50vw;
   padding-bottom: 0;
 
@@ -26,19 +26,29 @@ img,
   grid-column: 1;
   max-width: 50vw;
   padding-bottom: 0;
-
   box-sizing: content-box;
   height: auto;
   width: 50vw;
 }
-#posterkunst img {
-  grid-column: 2;
-  height: 25rem;
-  box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-  grid-row: 2;
-  box-sizing: content-box;
+#posterkunst {
+  grid-row: 2 !important ;
+  padding: 1rem;
+  margin-right: 0;
+  padding-right: 0;
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  /* align-content: inherit; */
 }
+#posterkunst img {
+  box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
 
+  grid-column: 1;
+  height: 22rem;
+  width: auto;
+  display: flex;
+  margin: 0;
+}
 .prev,
 .next {
   cursor: url(images/arrow.png), auto;
@@ -131,6 +141,7 @@ header {
   background-color: none;
   color: black;
   transform: scale(1, 1.4);
+  padding-top: 1rem;
   /* width: fit-content; */
 
   max-width: 50vw;
@@ -207,7 +218,7 @@ a.linkabout:visited {
   position: relative;
   margin-top: 20vh;
   padding: 1rem;
-  border: 1px red solid;
+  border: 1px rgb(243, 56, 56) solid;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -216,10 +227,12 @@ a.linkabout:visited {
   overflow: auto;
 }
 .kunstbio {
-  padding: 1rem;
+  width: inherit;
   grid-column: 1;
   grid-row: 1;
-  font-size: 0.8rem;
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 1px;
   transform: scale(1, 1.2);
 }
 #eventposters {
