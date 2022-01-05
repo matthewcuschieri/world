@@ -1,6 +1,28 @@
 * {
   box-sizing: border-box;
 }
+.topinfo {
+  width: 100%;
+  top: 0px;
+  max-height: 6.375vh;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0.5vh;
+  padding-bottom: calc(2.125vh - 2.5px);
+  box-sizing: border-box;
+  left: 0%;
+  position: fixed;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  z-index: 30;
+  transition: max-height 0.5s ease-in;
+  display: flex;
+  font-size: 1rem !important;
+  line-height: 1.15 !important;
+}
 /* .human,
 .tokyo {
   display: none;
@@ -84,7 +106,27 @@ html {
 header {
   display: flex;
 }
-
+.col1,
+.col2,
+.col3 {
+  -ms-transform: scaleY(0.95);
+  -webkit-transform: scaleY(0.95);
+  transform: scaleY(0.95);
+  transform-origin: top;
+  height: 100%;
+  top: 0;
+  float: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.col1 {
+  width: 20%;
+  left: 0%;
+  padding-right: 2%;
+  pointer-events: none;
+}
 .brian {
   cursor: url("images/bbsmall.png"), auto;
 
@@ -102,7 +144,9 @@ header {
   text-decoration: none;
   width: auto;
 }
-
+.topinfo:hover {
+  max-height: 40vh;
+}
 .ben {
   cursor: url("images/blrsmall.png"), auto;
   text-decoration: underline;
@@ -115,27 +159,14 @@ header {
 #aboutpagelink {
   background-color: none;
 }
-.social {
-  /* background-color: black; */
-  line-height: 1.4rem;
-  /* font-size: 1rem; */
-  color: black;
-  /* transform: scale(1, 1.4); */
-  width: fit-content;
-  grid-column: 1;
-  grid-row: 4;
+.col2 {
+  width: 50%;
+  left: 0%;
+  pointer-events: none;
 }
-
-#heading {
-  background-color: blue;
-  color: white;
-  transform: scale(1, 1.4);
-  width: fit-content;
-  display: flex;
-}
-#firstline {
-  background-color: blue;
-  color: white;
+.col3 {
+  width: 15%;
+  margin-left: 15%;
 }
 .linkabout {
   background-color: none;
@@ -147,6 +178,17 @@ header {
   max-width: 50vw;
   margin-top: 2.2%;
   /* margin-bottom: 20%;  */
+}
+.ssf {
+  letter-spacing: -0.05vh;
+
+  font-size: 1.6vh !important;
+
+  font-weight: 400;
+  text-align: left;
+  -ms-transform: scaleY(0.95);
+  -webkit-transform: scaleY(0.95);
+  transform: scaleY(0.95);
 }
 a.linkabout {
   background-color: blue !important;
