@@ -206,21 +206,20 @@ a.linkabout:visited {
   position: relative;
   margin: auto;
 }
-#kunstahle.designlink {
+#kunstwrap.designlink {
   display: none;
 }
 .kunstinfo {
   display: none;
 }
 .kunstinfo.designlink {
-  margin-left: 2vw;
   display: block;
   grid-column: 1;
   grid-row: 4;
   width: 50vw;
   max-width: 50vw;
   position: relative;
-  margin-top: 20vh;
+  margin-bottom: 2vh;
   margin-left: 1rem;
   padding-top: 4rem;
   border: 1px grey dashed;
@@ -228,12 +227,14 @@ a.linkabout:visited {
   padding-right: 1vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  max-height: 60vh;
+  height: 60vh;
   box-shadow: 5px 5px 5px grey;
   overflow: auto;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  z-index: 1;
 }
 .kunstbio {
+  z-index: 1;
   width: 48vw;
   grid-column: 1;
   grid-row: 1;
@@ -318,6 +319,7 @@ video {
   padding-top: 0;
   font-size: 0.8rem;
   transform: scale(1, 1.2);
+  z-index: 3;
 }
 /* // Small devices (landscape phones, 576px and up)// */
 @media (min-width: 10px) and (max-width: 599px) {
