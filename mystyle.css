@@ -32,7 +32,7 @@ img,
 }
 #posterkunst {
   grid-row: 2 !important ;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin-right: 0;
   padding-right: 0;
   width: fit-content;
@@ -210,6 +210,7 @@ a.linkabout:visited {
   display: none;
 }
 .kunstinfo.designlink {
+  margin-left: 2vw;
   display: block;
   grid-column: 2;
   grid-row: 4;
@@ -217,20 +218,22 @@ a.linkabout:visited {
   max-width: 45vw;
   position: relative;
   margin-top: 20vh;
-  padding: 1rem;
-  border: 1px rgb(243, 56, 56) solid;
+  margin-left: 1rem;
+  padding-top: 4rem;
+  border: 1px grey dashed;
   display: grid;
+  padding-right: 1vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   max-height: 60vh;
-  box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  box-shadow: 5px 5px 5px grey;
   overflow: auto;
 }
 .kunstbio {
-  width: inherit;
+  width: 43vw;
   grid-column: 1;
   grid-row: 1;
-  padding: 1rem;
+  margin-left: 1rem;
   padding-top: 0;
   padding-bottom: 1px;
   transform: scale(1, 1.2);
