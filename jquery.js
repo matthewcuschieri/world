@@ -4,4 +4,8 @@ $(document).ready(function () {
   $("#designlink").click(function () {
     $(".kunstinfo").toggleClass("designlink");
   });
+
+  $("#designlink").click(function () {
+    $("#kunsthale").toggleClass("designlink");
+  });
 });
