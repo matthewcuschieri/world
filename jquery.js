@@ -6,6 +6,6 @@ $(document).ready(function () {
   });
 
   $("#designlink").click(function () {
-    $("#kunsthale").toggleClass("designlink");
+    $("#kunstwrap").toggleClass("designlink");
   });
 });
