@@ -139,6 +139,21 @@ header {
   text-decoration: none;
   width: auto;
 }
+#gdfwdesignlink {
+  text-decoration: underline;
+}
+#gdfwdesignlink:hover {
+  text-decoration: none;
+  width: auto;
+}
+
+#sitelink {
+  text-decoration: underline;
+}
+#sitelink:hover {
+  text-decoration: none;
+  width: auto;
+}
 .brian:hover {
   /* cursor: url("bb.png"), auto; */
   text-decoration: none;
@@ -276,6 +291,43 @@ a.linkabout:visited {
   z-index: 1;
 }
 .kunstbio {
+  z-index: 1;
+  width: 48vw;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 1rem;
+  padding-top: 0;
+  padding-bottom: 1px;
+  transform: scale(1, 1.2);
+}
+#gdfwwrap.gdfwdesignlink {
+  display: none;
+}
+.gdfwinfo {
+  display: none;
+}
+.gdfwinfo.gdfwdesignlink {
+  display: block;
+  grid-column: 1;
+  grid-row: 7;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+
+  padding-top: 4rem;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
+.gdfwbio {
   z-index: 1;
   width: 48vw;
   grid-column: 1;
