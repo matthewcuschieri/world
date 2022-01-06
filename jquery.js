@@ -15,4 +15,12 @@ $(document).ready(function () {
   $("#gdfwdesignlink").click(function () {
     $("#gdfwwrap").toggleClass("gdfwdesignlink");
   });
+
+  $("#hidesignlink").click(function () {
+    $(".hiinfo").toggleClass("hidesignlink");
+  });
+
+  $("#hidesignlink").click(function () {
+    $("#hiwrap").toggleClass("hidesignlink");
+  });
 });
