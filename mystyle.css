@@ -451,8 +451,18 @@ video {
   .kunstinfo.designlink {
     width: 96vw;
     max-width: 96vw;
+    height: 40vh;
   }
   .kunstbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
+  .gdfwinfo.gdfwdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+    height: 40vh;
+  }
+  .gdfwkunstbio {
     width: 93vw;
     max-width: 93vw;
   }
@@ -499,6 +509,14 @@ video {
     width: 93vw;
     max-width: 93vw;
   }
+  .gdfwinfo.gdfwdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+  }
+  .gdfwkunstbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -538,6 +556,15 @@ video {
     max-width: 96vw;
   }
   .kunstbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
+
+  .gdfwinfo.gdfwdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+  }
+  .gdfwkunstbio {
     width: 93vw;
     max-width: 93vw;
   }
