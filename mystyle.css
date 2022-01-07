@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .topinfo {
   width: 100%;
   top: 0px;
@@ -128,11 +129,7 @@ header {
   padding-right: 2%;
   pointer-events: none;
 }
-.brian {
-  cursor: url("images/bbsmall.png"), auto;
 
-  text-decoration: underline;
-}
 #designlink {
   text-decoration: underline;
 }
@@ -162,23 +159,11 @@ header {
   text-decoration: none;
   width: auto;
 }
-.brian:hover {
-  /* cursor: url("bb.png"), auto; */
-  text-decoration: none;
-  width: auto;
-}
+
 .topinfo:hover {
   max-height: 40vh;
 }
-.ben {
-  cursor: url("images/blrsmall.png"), auto;
-  text-decoration: underline;
-}
-.ben:hover {
-  /* cursor: url("bb.png"), auto; */
-  text-decoration: none;
-  width: auto;
-}
+
 #aboutpagelink {
   background-color: none;
 }
@@ -469,6 +454,25 @@ video {
   font-size: 0.8rem;
   transform: scale(1, 1.2);
   z-index: 3;
+}
+.brian:hover {
+  /* cursor: url("bb.png"), auto; */
+  text-decoration: none;
+  width: auto;
+}
+.brian {
+  cursor: url("images/bbsmall.png"), auto;
+
+  text-decoration: underline;
+}
+.ben {
+  cursor: url("images/blrsmall.png"), auto;
+  text-decoration: underline;
+}
+.ben:hover {
+  /* cursor: url("bb.png"), auto; */
+  text-decoration: none;
+  width: auto;
 }
 /* // Small devices (landscape phones, 576px and up)// */
 @media (min-width: 10px) and (max-width: 599px) {
