@@ -320,7 +320,6 @@ input[type="reset"] {
 }
 #pitch {
   grid-column: 1;
-  padding-top: 4vh;
 }
 #gdfwwrap.gdfwdesignlink {
   display: none;
