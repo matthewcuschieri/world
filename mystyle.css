@@ -187,11 +187,9 @@ header {
   margin-top: 2.2%;
   /* margin-bottom: 20%;  */
 }
-.ssf {
+.columns {
   letter-spacing: -0.05vh;
   font-size: 1.6vh !important;
-  font-weight: 400;
-  text-align: left;
 }
 a.linkabout {
   background-color: blue !important;
