@@ -285,7 +285,6 @@ a.linkabout:visited {
   position: relative;
   margin-bottom: 2vh;
 
-  padding-top: 4rem;
   border: 1px grey dashed;
   display: grid;
   padding-right: 1vw;
@@ -306,6 +305,10 @@ a.linkabout:visited {
   padding-top: 0;
   padding-bottom: 1px;
   transform: scale(1, 1.2);
+}
+#pitch {
+  grid-column: 1;
+  padding-top: 4vh;
 }
 #gdfwwrap.gdfwdesignlink {
   display: none;
