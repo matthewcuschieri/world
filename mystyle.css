@@ -6,10 +6,11 @@
   top: 0px;
   max-height: 6.375vh;
   margin-top: 0;
+
   background-color: rgba(255, 255, 255, 1);
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 0.5vh;
+  padding-top: 0vh;
   padding-bottom: calc(2.125vh - 2.5px);
   box-sizing: border-box;
   left: 0%;
@@ -187,7 +188,7 @@ header {
   pointer-events: none;
 }
 .col3 {
-  width: 15%;
+  width: 5%;
   margin-left: 15%;
 }
 .linkabout {
@@ -203,14 +204,9 @@ header {
 }
 .ssf {
   letter-spacing: -0.05vh;
-
   font-size: 1.6vh !important;
-
   font-weight: 400;
   text-align: left;
-  -ms-transform: scaleY(0.95);
-  -webkit-transform: scaleY(0.95);
-  transform: scaleY(0.95);
 }
 a.linkabout {
   background-color: blue !important;
