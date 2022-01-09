@@ -500,9 +500,12 @@ video {
   #kunstahle,
   #norwood,
   #prov,
-  #info {
+  #info,
+  #eventposters,
+  #hmm,
+  #illo {
     max-width: 100vw;
-    padding-top: 10vh;
+    padding-top: 1vh;
   }
   .linkabout {
     max-width: 100vw;
@@ -541,6 +544,9 @@ video {
     padding-right: 2%;
     pointer-events: none;
   }
+  #briefbio {
+    width: 100vw;
+  }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 600px) and (max-width: 799px) {
@@ -568,9 +574,12 @@ video {
   #kunstahle,
   #norwood,
   #prov,
-  #info {
+  #info,
+  #eventposters,
+  #hmm,
+  #illo {
     max-width: 100vw;
-    padding-top: 10vh;
+    padding-top: 2vh;
   }
   .linkabout {
     margin-top: 5%;
@@ -599,6 +608,9 @@ video {
   .hibio {
     width: 93vw;
     max-width: 93vw;
+  }
+  #briefbio {
+    width: 100vw;
   }
 }
 
@@ -627,7 +639,10 @@ video {
   #kunstahle,
   #norwood,
   #prov,
-  #info {
+  #info,
+  #eventposters,
+  #hmm,
+  #illo {
     max-width: 100vw;
     padding-top: 10vh;
   }
@@ -658,5 +673,8 @@ video {
   .hibio {
     width: 93vw;
     max-width: 93vw;
+  }
+  #briefbio {
+    width: 100vw;
   }
 }
