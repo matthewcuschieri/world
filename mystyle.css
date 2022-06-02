@@ -38,12 +38,14 @@ img,
 .providence,
 .sites,
 .basic,
-.read {
+.read,
+.illo {
   /* grid-column: 1; */
   max-width: 50vw;
   padding-bottom: 0;
   padding-left: 0px;
   margin-left: 0px;
+
   box-sizing: content-box;
   height: auto;
 }
@@ -54,6 +56,9 @@ img,
   display: block;
 }
 #read-container {
+  display: block;
+}
+#illo-container {
   display: block;
 }
 #gifline {
@@ -76,7 +81,6 @@ img,
 }
 #posterkunst img {
   box-shadow: 5px 5px 8px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-
   grid-column: 1;
   height: 22rem;
   width: auto;
@@ -203,7 +207,7 @@ header {
 .col2 {
   width: 47%;
   left: 0%;
-  pointer-events: none;
+  pointer-events: none, auto;
 }
 .col3 {
   width: 5%;
@@ -239,6 +243,10 @@ a.linkabout {
   max-height: 60vh;
   max-width: 50vw;
 }
+#kitchen {
+  max-height: 70vh;
+}
+
 #link {
   color: black;
   /* background-color: gray; */
@@ -516,11 +524,51 @@ video {
   max-width: 50vw;
   grid-row: 8;
 }
+
+#illowrap.illodesignlink {
+  display: none;
+}
+
 #illo {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 9;
+  position: relative;
+}
+.illoinfo {
+  display: none;
+}
+.illoinfo.illodesignlink {
+  display: block;
+  grid-column: 1;
+  grid-row: 9;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+  background-color: white;
+  padding-top: 4rem;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
+.illobio {
+  z-index: 1;
+  width: 48vw;
+  grid-column: 1;
+  grid-row: 91;
+  margin-left: 1rem;
+  padding-top: 0;
+  padding-bottom: 1px;
+  transform: scale(1, 1.2);
 }
 #info {
   padding-top: 20vh;
@@ -583,12 +631,12 @@ video {
   width: auto;
 }
 .brian {
-  cursor: url("images/bbsmall.png"), auto;
+  cursor: url("images/bbsmall.png"), pointer;
 
   text-decoration: underline;
 }
 .ben {
-  cursor: url("images/blrsmall.png"), auto;
+  cursor: url("images/blrsmall.png"), pointer;
   text-decoration: underline;
 }
 .ben:hover {
@@ -611,7 +659,9 @@ video {
   .providence,
   .norwood,
   .basic,
-  .read {
+  .read,
+  .info,
+  .illo {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -716,7 +766,8 @@ video {
   .providence,
   .norwood,
   .basic,
-  .read {
+  .read,
+  .illo {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -801,7 +852,8 @@ video {
   .providence,
   .norwood,
   .basic,
-  .read {
+  .read,
+  .illo {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
