@@ -272,6 +272,7 @@ a.linkabout:visited {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   border: red;
+  display: grid;
 }
 #kunstahle {
   padding-top: 20vh;
