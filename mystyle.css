@@ -178,6 +178,13 @@ header {
   text-decoration: none;
   width: auto;
 }
+#readdesignlink {
+  text-decoration: underline;
+}
+#readdesignlink:hover {
+  text-decoration: none;
+  width: auto;
+}
 #sitelink {
   text-decoration: underline;
 }
@@ -262,7 +269,6 @@ a.linkabout:visited {
   background-color: blue;
 }
 #gridsplit {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   border: red;
@@ -647,6 +653,15 @@ video {
     width: 93vw;
     max-width: 93vw;
   }
+  .basicinfo.basicdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+    height: 40vh;
+  }
+  .basicbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
   .readinfo.readdesignlink {
     width: 96vw;
     max-width: 96vw;
@@ -741,6 +756,14 @@ video {
     width: 93vw;
     max-width: 93vw;
   }
+  .basicinfo.basicdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+  }
+  .basicbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
   .readinfo.readdesignlink {
     width: 96vw;
     max-width: 96vw;
@@ -815,6 +838,14 @@ video {
     max-width: 96vw;
   }
   .gdfwbio {
+    width: 93vw;
+    max-width: 93vw;
+  }
+  .basicinfo.basicdesignlink {
+    width: 96vw;
+    max-width: 96vw;
+  }
+  .basicbio {
     width: 93vw;
     max-width: 93vw;
   }
