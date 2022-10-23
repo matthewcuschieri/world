@@ -469,7 +469,6 @@ input[type="reset"] {
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
-  padding-top: 4rem;
   border: 1px grey dashed;
   display: grid;
   padding-right: 1vw;
@@ -509,6 +508,7 @@ input[type="reset"] {
 #sites {
   padding-top: 20vh;
   grid-column: 1;
+  width: 50vw;
   max-width: 50vw;
   grid-row: 7;
   position: relative;
@@ -581,7 +581,9 @@ video {
 #tokyo {
   padding-top: 20vh;
   grid-column: 1;
-  max-width: 50vw;
+  left: 0;
+  width: 20vw !important;
+
   grid-row: 11;
   position: relative;
   margin: auto;
@@ -590,7 +592,7 @@ video {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
-  grid-row: 12;
+  grid-row: 11;
   position: relative;
   margin: auto;
 }
@@ -598,7 +600,7 @@ video {
   padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
-  grid-row: 13;
+  grid-row: 12;
   position: relative;
   margin: auto;
 }
