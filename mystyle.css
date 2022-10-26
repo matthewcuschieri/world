@@ -1,8 +1,9 @@
 * {
-  overflow-x: hidden;
   box-sizing: border-box;
 }
-
+body {
+  overflow-x: hidden;
+}
 .topinfo {
   width: 100%;
   top: 0px;
