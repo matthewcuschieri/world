@@ -1,4 +1,5 @@
 * {
+  color: #5e5e5e;
   box-sizing: border-box;
 }
 body {
@@ -7,17 +8,14 @@ body {
 .topinfo {
   width: 100%;
   top: 0px;
-  max-height: 1.375vh;
   margin-top: 0;
-
-  background-color: rgba(255, 255, 255, 1);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 4px;
   padding-bottom: calc(2.125vh - 2.5px);
   box-sizing: border-box;
   left: 0%;
-  position: fixed;
+  color: #5e5e5e;
   float: left;
   text-align: left;
   overflow: hidden;
@@ -27,6 +25,30 @@ body {
   font-size: 1rem !important;
   line-height: 1.15 !important;
 }
+::selection {
+  background-color: transparent;
+  color: #101010;
+}
+p {
+  display: inline;
+}
+#opt1 {
+  display: none;
+}
+#opt1.active {
+  display: inline;
+  transition: transform 0.25s;
+}
+#opt2.active,
+#opt3.active {
+  display: inline;
+  transition: transform 0.25s;
+}
+#opt2,
+#opt3 {
+  display: none;
+}
+
 /* .human,
 .tokyo {
   display: none;
@@ -89,16 +111,19 @@ video {
   display: flex;
   margin: 0;
 }
+.prev {
+  cursor: url(images/arrowleft.png), auto;
+}
 
 .prev,
 .next {
   cursor: url(images/arrow.png), auto;
-  position: absolute;
+
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  filter: invert(100%);
+  width: 50%;
+  height: 96%;
   color: rgb(0, 0, 0);
   text-align: center;
   border-radius: 0 3px 3px 0;
@@ -147,14 +172,36 @@ header {
   padding: 0;
   box-sizing: border-box;
   position: relative;
+  color: #5e5e5e;
 }
 .col1 {
-  width: 23%;
+  width: 40ch;
   left: 0%;
-  padding-right: 2%;
+
   pointer-events: none;
 }
-
+#plus {
+  display: none;
+}
+#plus.active {
+  cursor: pointer;
+  display: block;
+}
+#minus {
+  display: none;
+}
+#minus.active {
+  display: block;
+  cursor: pointer;
+}
+#aboutPage {
+  display: none;
+  cursor: pointer;
+}
+#aboutPage.active {
+  display: block;
+  cursor: pointer;
+}
 #designlink {
   text-decoration: underline;
 }
@@ -198,10 +245,6 @@ header {
   width: auto;
 }
 
-.topinfo:hover {
-  max-height: 40vh;
-}
-
 #aboutpagelink {
   background-color: none;
 }
@@ -211,8 +254,20 @@ header {
   pointer-events: none, auto;
 }
 .col3 {
-  width: 5%;
+  width: 7vw;
   margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about:hover,
+#plus:hover,
+#minus:hover {
+  color: rgb(167, 167, 167);
+}
+
+#minus:hover {
+  text-decoration: underline;
 }
 .linkabout {
   background-color: none;
@@ -251,7 +306,7 @@ a.linkabout {
   max-height: 50vh;
 }
 #link {
-  color: black;
+  color: #5e5e5e;
   /* background-color: gray; */
   transform: scale(1, 1.4);
   display: flex-end;
@@ -261,14 +316,14 @@ a.linkabout {
 }
 a:link {
   /* background-color: gray; */
-  color: black;
+  color: #5e5e5e;
   transform: scale(1, 1.1);
   width: fit-content;
 
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: #5e5e5e;
 }
 a.linkabout:link {
   background-color: blue;
@@ -284,9 +339,10 @@ a.linkabout:visited {
   grid-template-rows: auto;
   border: red;
   display: grid;
+  row-gap: 20vh;
 }
+
 #kunstahle {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 4;
@@ -303,7 +359,7 @@ button,
 input[type="submit"],
 input[type="reset"] {
   background: none;
-  color: rgba(35, 35, 190, 0.74);
+  color: rgb(43 166 202);
   border: none;
   padding: 0;
   font: inherit;
@@ -466,7 +522,7 @@ input[type="reset"] {
 .basicinfo.basicdesignlink {
   display: block;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 2;
   width: 50vw;
   max-width: 50vw;
   position: relative;
@@ -494,7 +550,6 @@ input[type="reset"] {
   transform: scale(1, 1.2);
 }
 #buro {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 3;
@@ -538,13 +593,11 @@ input[type="reset"] {
   transform: scale(1, 1.2);
 }
 #eventposters {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 6;
 }
 #humaninfrastructure {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 7;
@@ -552,7 +605,6 @@ input[type="reset"] {
   margin: auto;
 }
 #sites {
-  padding-top: 20vh;
   grid-column: 1;
 
   max-width: 50vw;
@@ -566,7 +618,6 @@ video {
   height: auto;
 }
 #hmm {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 9;
@@ -576,7 +627,6 @@ video {
 }
 
 #ball {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 10;
@@ -621,7 +671,6 @@ video {
 }
 
 #illo {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 11;
@@ -662,7 +711,6 @@ video {
   transform: scale(1, 1.2);
 }
 #info {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 12;
@@ -670,7 +718,6 @@ video {
   margin: auto;
 }
 #tokyo {
-  padding-top: 20vh;
   grid-column: 1;
   left: 0;
   width: 20vw !important;
@@ -680,7 +727,6 @@ video {
   margin: auto;
 }
 #prov {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 14;
@@ -688,7 +734,6 @@ video {
   margin: auto;
 }
 #norwood {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 15;
@@ -696,15 +741,13 @@ video {
   margin: auto;
 }
 #basicholding {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
-  grid-row: 1;
+  grid-row: 2;
   position: relative;
   margin: auto;
 }
 #read {
-  padding-top: 20vh;
   grid-column: 1;
   max-width: 50vw;
   grid-row: 5;
@@ -715,7 +758,7 @@ video {
   margin-top: 0;
   padding-top: 0;
   font-size: 0.8rem;
-  transform: scale(1, 1.2);
+
   z-index: 3;
 }
 .brian:hover {
@@ -835,7 +878,7 @@ video {
     max-width: 93vw;
   }
   .col1 {
-    width: 25%;
+    width: 60ch;
     left: 0%;
     padding-right: 2%;
     pointer-events: none;
