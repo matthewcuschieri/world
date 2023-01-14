@@ -96,29 +96,28 @@ $("#plus").on("click", function (e) {
   }
   e.preventDefault();
 });
-let timeoutId;
+// let timeoutId;
+// $(document).ready(function () {
+//   console.log("ready!");
+//   // $("#opt1").toggleClass("active");
+//   // $("#opt2").addClass("active");
+//   // $("#aboutPage").toggleClass("active");
+//   timeoutId = setTimeout(function () {
+//     if (!$("#aboutPage").hasClass("active")) {
+//       return;
+//     } else $("#plus").toggleClass("active");
+//     $("#aboutPage").removeClass("active");
+//     $("#opt1").removeClass("active");
+//   }, 2000);
+
 $(document).ready(function () {
-  console.log("ready!");
-  $("#opt1").toggleClass("active");
-  $("#opt2").addClass("active");
-  $("#aboutPage").toggleClass("active");
-  timeoutId = setTimeout(function () {
-    $("#aboutPage").removeClass("active");
-    $("#plus").toggleClass("active");
-    $("#opt1").removeClass("active");
+  setTimeout(function (e) {
+    if (!$("#opt3").hasClass("active") != true) {
+      console.log("good");
+    } else {
+      $("#plus").addClass("active");
+      $("#aboutPage").removeClass("active");
+      $("#opt1").removeClass("active");
+    }
   }, 2000);
-
-  // if (!$("#opt3").hasClass("active")) {
-  //   clearTimeout(timeoutId);
-  // }
-  $("#opt1".animate({ opacity: "0.4" }, "slow"));
-});
-
-!$("#opt3").hasClass("active");
-{
-  clearTimeout(timeoutId);
-}
-!$("#opt3").on("click", function (e) {
-  clearTimeout(timeoutId);
-  e.preventDefault();
 });
