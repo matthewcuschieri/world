@@ -23,6 +23,7 @@ body {
   transition: max-height 0.5s ease-in;
   display: flex;
   font-size: 1rem !important;
+  transition: transform 0.5s;
   line-height: 1.15 !important;
 }
 ::selection {
@@ -33,19 +34,26 @@ p {
   display: inline;
 }
 #opt1 {
+  transform: translateY(25vh);
+  transition: transform 0.5s;
   display: none;
 }
 #opt1.active {
   display: inline;
-  transition: transform 0.25s;
+
+  transform: translateY(0vh);
+  transition: transform 0.5s;
 }
 #opt2.active,
 #opt3.active {
   display: inline;
-  transition: transform 0.25s;
+  transform: translateY(25vh);
+  transition: transform 0.5s;
 }
 #opt2,
 #opt3 {
+  transform: translateY(0vh);
+  transition: transform 0.5s;
   display: none;
 }
 
@@ -161,6 +169,7 @@ header {
 .col1,
 .col2,
 .col3 {
+  transition: transform 0.5s;
   -ms-transform: scaleY(0.95);
   -webkit-transform: scaleY(0.95);
   transform: scaleY(0.95);
@@ -177,7 +186,7 @@ header {
 .col1 {
   width: 40ch;
   left: 0%;
-
+  transition: transform 0.5s;
   pointer-events: none;
 }
 #plus {
@@ -188,17 +197,21 @@ header {
   display: block;
 }
 #minus {
+  transition: transform 0.5s;
   display: none;
 }
 #minus.active {
+  transition: transform 0.5s;
   display: block;
   cursor: pointer;
 }
 #aboutPage {
+  transition: transform 0.5s;
   display: none;
   cursor: pointer;
 }
 #aboutPage.active {
+  transition: transform 0.5s;
   display: block;
   cursor: pointer;
 }
@@ -281,6 +294,7 @@ header {
   /* margin-bottom: 20%;  */
 }
 .columns {
+  transition: transform 0.5s;
   letter-spacing: -0.05vh;
   font-size: 1.6vh !important;
 }
@@ -880,6 +894,7 @@ video {
   .col1 {
     width: 60ch;
     left: 0%;
+    transition: transform 0.5s;
     padding-right: 2%;
     pointer-events: none;
   }
