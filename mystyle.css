@@ -206,14 +206,13 @@ header {
 }
 #aboutPage {
   transition: 0.7s ease-in;
-  transform: translateY(25vh);
+
   cursor: pointer;
-  display: none;
 }
 #aboutPage.active {
   transition: 0.7s ease-in;
   display: block;
-  transform: translateY(0vh);
+
   cursor: pointer;
 }
 #designlink {
@@ -362,7 +361,7 @@ a.linkabout:visited {
   max-width: 50vw;
   grid-row: 4;
   position: relative;
-  margin: auto;
+  /* margin: auto; */
 }
 #kunstwrap.designlink {
   display: none;
