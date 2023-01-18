@@ -5,6 +5,10 @@
 body {
   overflow-x: hidden;
 }
+#portrait {
+  width: 44% !important;
+  max-width: 44% !important;
+}
 .topinfo {
   width: 100%;
 
@@ -627,7 +631,6 @@ input[type="reset"] {
   margin: auto;
 }
 video {
-  width: 100%;
   height: auto;
 }
 #hmm {
