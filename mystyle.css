@@ -838,8 +838,8 @@ video {
     padding-top: 1vh;
   }
   #portrait {
-    width: 70%;
-    max-width: 50vw !important;
+    width: 20% !important;
+    max-width: 20% !important;
   }
   .linkabout {
     max-width: 100vw;
