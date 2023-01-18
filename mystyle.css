@@ -206,7 +206,7 @@ header {
 }
 #aboutPage {
   transition: 0.7s ease-in;
-
+  display: none;
   cursor: pointer;
 }
 #aboutPage.active {
