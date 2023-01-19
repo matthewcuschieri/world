@@ -764,7 +764,6 @@ video {
   max-width: 50vw;
   grid-row: 2;
   position: relative;
-  margin: auto;
 }
 #read {
   grid-column: 1;
