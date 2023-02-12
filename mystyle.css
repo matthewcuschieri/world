@@ -1040,7 +1040,6 @@ video {
   #tokyo,
   #sites,
   #humaninfrastructure,
-  #kunstahle,
   #norwood,
   #prov,
   #info,
@@ -1052,6 +1051,10 @@ video {
   #buro,
   #ball {
     max-width: 97vw;
+    padding-top: 10vh;
+  }
+  #kunstahle {
+    max-width: 70vw;
     padding-top: 10vh;
   }
   #portrait {
