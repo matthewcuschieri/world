@@ -752,6 +752,12 @@ video {
   position: relative;
   margin: auto;
 }
+#circvideo {
+  grid-column: 1;
+  max-width: 50vw;
+  grid-row: 13;
+  position: relative;
+}
 #norwood {
   grid-column: 1;
   max-width: 50vw;
@@ -818,7 +824,8 @@ video {
   .illo,
   .buro,
   video,
-  .ball {
+  .ball,
+  .circle {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -838,7 +845,8 @@ video {
   #read,
   #buro,
   video,
-  #ball {
+  #ball,
+  #circvideo {
     max-width: 100vw;
     padding-top: 1vh;
   }
@@ -936,7 +944,8 @@ video {
   .buro,
   video,
   .buro,
-  .ball {
+  .ball,
+  .circle {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -955,7 +964,8 @@ video {
   #basicholding,
   #read,
   #buro,
-  #ball {
+  #ball,
+  #circvideo {
     max-width: 97vw;
     padding-top: 2vh;
   }
@@ -1031,7 +1041,8 @@ video {
   .illo,
   video,
   .buro,
-  .ball {
+  .ball,
+  .circle {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1053,7 +1064,8 @@ video {
     max-width: 97vw;
     padding-top: 10vh;
   }
-  #kunstahle {
+  #kunstahle,
+  #circvideo {
     max-width: 70vw;
     padding-top: 10vh;
   }
