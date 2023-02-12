@@ -52,6 +52,7 @@ p {
   display: inline;
   transform: translateY(25vh);
   transition: 0.7s ease-in;
+  line-height: 3.4mm;
 }
 #opt2,
 #opt3 {
@@ -190,7 +191,6 @@ header {
   width: 40ch;
   left: 0%;
   transition: 0.7s ease-in;
-  pointer-events: none;
 }
 #plus {
   display: none;
