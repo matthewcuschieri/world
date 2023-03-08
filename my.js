@@ -7,7 +7,7 @@ var slideId = [
   "read",
   "sites",
   "ball",
-  "kunst",
+
   "illo",
   "providence",
   "norwood",
