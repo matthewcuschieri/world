@@ -35,6 +35,16 @@ $(document).ready(function () {
   $("#hidesignlink").click(function () {
     $("#hiwrap").toggleClass("hidesignlink");
   });
+  // $("#sortdesignlink").click(function () {
+  //   $(".sortinfo").toggleClass("sortdesignlink");
+  // });
+
+  // $("#sortdesignlink").click(function () {
+  //   $("#sortwrap").toggleClass("sortdesignlink");
+  // });
+  $("#more").click(function () {
+    $(".team").toggle();
+  });
 });
 
 // $(".col3").on("click", function (e) {
