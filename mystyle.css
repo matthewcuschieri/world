@@ -920,7 +920,8 @@ video {
   .ball,
   .circle,
   .sort,
-  .e3 {
+  .e3,
+  .knoll {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -941,7 +942,8 @@ video {
   video,
   #ball,
   #sortlater,
-  #essay3 {
+  #essay3,
+  #kwrl {
     max-width: 100vw;
     padding-top: 1vh;
   }
@@ -1056,7 +1058,8 @@ video {
   .buro,
   .ball,
   .circle,
-  .sort {
+  .sort,
+  .knoll {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1079,7 +1082,8 @@ video {
   #circvideo,
   #sortlater,
   #essay3,
-  #essay4 {
+  #essay4,
+  #kwrl {
     max-width: 97vw;
     padding-top: 2vh;
   }
@@ -1165,7 +1169,8 @@ video {
   .buro,
   .ball,
   .circle,
-  .sort {
+  .sort,
+  .knoll {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1185,7 +1190,8 @@ video {
   #buro,
   #ball,
   #sortlater,
-  #essay3 {
+  #essay3,
+  #kwrl {
     max-width: 97vw;
     padding-top: 10vh;
   }
