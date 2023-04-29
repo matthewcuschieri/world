@@ -119,12 +119,12 @@ video,
   margin: 0;
 }
 .prev {
-  cursor: url(images/arrowleft.png), auto !important;
+  cursor: w-resize !important;
 }
 
 .prev,
 .next {
-  cursor: url(images/arrow.png), auto;
+  cursor: e-resize;
 
   position: absolute;
   top: 0;
