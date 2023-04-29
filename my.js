@@ -5,6 +5,7 @@ var slideId = [
   "sort",
   "human",
   "read",
+  "knoll",
   "sites",
   "ball",
 
