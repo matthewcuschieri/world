@@ -4,8 +4,9 @@ var slideId = [
   "buro",
   "sort",
   "human",
-  "read",
   "clique",
+  "read",
+
   "knoll",
   "sites",
   "ball",
