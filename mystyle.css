@@ -1029,7 +1029,8 @@ video {
   #sortlater,
   #essay3,
   #essay6 #kwrl,
-  #clique {
+  #clique,
+  #dp {
     max-width: 100vw;
   }
   #kunstahle,
@@ -1168,7 +1169,8 @@ video {
   #essay3,
   #essay6,
   #kwrl,
-  #clique {
+  #clique,
+  #dp {
     max-width: 97vw;
   }
   #kunstahle,
@@ -1282,7 +1284,8 @@ video {
   #essay3,
   #essay6,
   #kwrl,
-  #clique {
+  #clique,
+  #dp {
     max-width: 97vw;
   }
   #kunstahle,
