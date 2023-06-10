@@ -675,6 +675,47 @@ input[type="reset"] {
   padding-bottom: 1px;
   transform: scale(1, 1.2);
 }
+#interview {
+  grid-column: 1;
+  max-width: 50vw;
+  /* margin-top: -19vh; */
+  position: relative;
+}
+#interviewwrap.interviewdesignlink {
+  display: none;
+}
+.interviewinfo {
+  display: none;
+}
+.interviewinfo.interviewdesignlink {
+  display: block;
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
+.interviewbio {
+  z-index: 1;
+  width: 48vw;
+  grid-column: 1;
+
+  margin-left: 1rem;
+  padding-top: 0;
+  padding-bottom: 1px;
+  transform: scale(1, 1.2);
+}
 #clique {
   grid-column: 1;
   max-width: 50vw;
