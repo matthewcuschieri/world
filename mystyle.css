@@ -1130,7 +1130,10 @@ video {
   #essay3,
   #essay6 #kwrl,
   #clique,
-  #dp {
+  #dp,
+  #yearbook,
+  #ybspread,
+  #interview {
     max-width: 100vw;
   }
   #kunstahle,
@@ -1270,7 +1273,10 @@ video {
   #essay6,
   #kwrl,
   #clique,
-  #dp {
+  #dp,
+  #yearbook,
+  #ybspread,
+  #interview {
     max-width: 97vw;
   }
   #kunstahle,
@@ -1385,7 +1391,10 @@ video {
   #essay6,
   #kwrl,
   #clique,
-  #dp {
+  #dp,
+  #yearbook,
+  #ybspread,
+  #interview {
     max-width: 97vw;
   }
   #kunstahle,
