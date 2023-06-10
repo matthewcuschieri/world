@@ -1,21 +1,18 @@
-var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 var slideId = [
   "dp",
+  "yearbook",
+  "ybspread",
   "interview",
   "basic",
-
   "buro",
   "sort",
-
   "human",
-
   "clique",
   "read",
-
   "knoll",
   "sites",
   "ball",
-
   "illo",
   "providence",
   "norwood",
@@ -34,6 +31,8 @@ showSlides(1, 10);
 showSlides(1, 11);
 showSlides(1, 12);
 showSlides(1, 13);
+showSlides(1, 14);
+showSlides(1, 15);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
