@@ -1106,7 +1106,8 @@ video {
   .circle,
   .sort,
   .e3,
-  .knoll {
+  .knoll,
+  .essay6 {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
