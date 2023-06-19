@@ -106,19 +106,6 @@ $("#plus").on("click", function (e) {
   }
   e.preventDefault();
 });
-// let timeoutId;
-// $(document).ready(function () {
-//   console.log("ready!");
-//   // $("#opt1").toggleClass("active");
-//   // $("#opt2").addClass("active");
-//   // $("#aboutPage").toggleClass("active");
-//   timeoutId = setTimeout(function () {
-//     if (!$("#aboutPage").hasClass("active")) {
-//       return;
-//     } else $("#plus").toggleClass("active");
-//     $("#aboutPage").removeClass("active");
-//     $("#opt1").removeClass("active");
-//   }, 2000);
 
 // $(document).ready(function () {
 //   setTimeout(function (e) {
