@@ -1210,7 +1210,8 @@ video {
   .essay6,
   .pamp1,
   .pamp2,
-  .pamp3 {
+  .pamp3,
+  .interview {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1362,7 +1363,8 @@ video {
   .ball,
   .circle,
   .sort,
-  .knoll {
+  .knoll,
+  .interview {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1391,9 +1393,7 @@ video {
   #dp,
   #yearbook,
   #ybspread,
-  #interview .pamp1,
-  .pamp2,
-  .pamp3 {
+  #interview {
     max-width: 97vw;
   }
   #kunstahle,
@@ -1488,7 +1488,8 @@ video {
   .ball,
   .circle,
   .sort,
-  .knoll {
+  .knoll,
+  .interview {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1517,7 +1518,8 @@ video {
   #ybspread,
   #interview .pamp1,
   .pamp2,
-  .pamp3 {
+  .pamp3,
+  .interview {
     max-width: 97vw;
   }
   #kunstahle,
