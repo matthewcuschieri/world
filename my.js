@@ -9,8 +9,9 @@ var slideId = [
   "pamp2",
   "pamp3",
   "interview",
-  "basic",
   "sort",
+  "basic",
+
   "buro",
 
   "human",
