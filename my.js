@@ -18,7 +18,7 @@ var slideId = [
   "read",
   "knoll",
   "sites",
-  "ball",
+
   "illo",
   "providence",
   "norwood",
@@ -41,7 +41,6 @@ showSlides(1, 14);
 showSlides(1, 15);
 showSlides(1, 16);
 showSlides(1, 17);
-showSlides(1, 18);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
