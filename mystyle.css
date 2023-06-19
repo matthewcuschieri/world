@@ -311,6 +311,9 @@ a.linkabout {
 #individual {
   max-height: 50vh;
 }
+#pamphlet {
+  max-height: 70vh;
+}
 #individualimpact {
   max-height: 50vh;
   filter: drop-shadow(0px 4px 6px #d1d1d1);
@@ -370,7 +373,11 @@ a.linkabout:visited {
   /* margin: auto; */
 }
 #essay3,
-#essay6 {
+#essay6,
+#pamp1,
+#pamp2,
+#pamp3,
+#pamphlet {
   grid-column: 1;
   max-width: 50vw;
 
@@ -758,7 +765,7 @@ input[type="reset"] {
 #ybspreadwrap.ybspreaddesignlink {
   display: none;
 }
-.ybspreadkinfo {
+.ybspreadinfo {
   display: none;
 }
 .ybspreadinfo.ybspreaddesignlink {
@@ -781,6 +788,99 @@ input[type="reset"] {
   z-index: 1;
 }
 
+#pamp1 {
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+}
+#pamp1wrap.pamp1designlink {
+  display: none;
+}
+.pamp1info {
+  display: none;
+}
+.pamp1info.pamp1designlink {
+  display: block;
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
+#pamp2 {
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+}
+#pamp2wrap.pamp2designlink {
+  display: none;
+}
+.pamp2info {
+  display: none;
+}
+.pamp2info.pamp2designlink {
+  display: block;
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
+#pamp3 {
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+}
+#pamp3wrap.pamp3designlink {
+  display: none;
+}
+.pamp3info {
+  display: none;
+}
+.pamp3info.pamp3designlink {
+  display: block;
+  grid-column: 1;
+  width: 50vw;
+  max-width: 50vw;
+  position: relative;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: 1px grey dashed;
+  display: grid;
+  padding-right: 1vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey;
+  overflow: auto;
+  /* background-color: whitesmoke; */
+  z-index: 1;
+}
 #clique {
   grid-column: 1;
   max-width: 50vw;
@@ -1107,7 +1207,10 @@ video {
   .sort,
   .e3,
   .knoll,
-  .essay6 {
+  .essay6,
+  .pamp1,
+  .pamp2,
+  .pamp3 {
     grid-column: 1;
     max-width: 97vw;
     padding-bottom: 0;
@@ -1135,13 +1238,23 @@ video {
   #dp,
   #yearbook,
   #ybspread,
-  #interview {
+  #interview,
+  #pamp1,
+  #pamp2,
+  #pamp3 {
     max-width: 100vw;
   }
   #kunstahle,
   #circvideo,
   #essay4 {
     max-width: 70vw;
+  }
+  #pamp1,
+  #pamp2,
+  #pamp3,
+  #pamphlet {
+    width: 100vw;
+    max-width: 100vw;
   }
   #portrait {
     width: 20% !important;
@@ -1278,12 +1391,18 @@ video {
   #dp,
   #yearbook,
   #ybspread,
-  #interview {
+  #interview .pamp1,
+  .pamp2,
+  .pamp3 {
     max-width: 97vw;
   }
   #kunstahle,
   #circvideo,
-  #essay4 {
+  #essay4,
+  #pamp1,
+  #pamp2,
+  #pamp3,
+  #pamphlet {
     max-width: 50vw;
   }
   #portrait {
@@ -1396,12 +1515,18 @@ video {
   #dp,
   #yearbook,
   #ybspread,
-  #interview {
+  #interview .pamp1,
+  .pamp2,
+  .pamp3 {
     max-width: 97vw;
   }
   #kunstahle,
   #circvideo,
-  #essay4 {
+  #essay4,
+  #pamp1,
+  #pamp2,
+  #pamp3,
+  #pamphlet {
     max-width: 50vw;
   }
   #portrait {
