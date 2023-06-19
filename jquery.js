@@ -120,14 +120,14 @@ $("#plus").on("click", function (e) {
 //     $("#opt1").removeClass("active");
 //   }, 2000);
 
-$(document).ready(function () {
-  setTimeout(function (e) {
-    if (!$("#opt3").hasClass("active") != true) {
-      console.log("good");
-    } else {
-      $("#plus").addClass("active");
-      $("#aboutPage").removeClass("active");
-      $("#opt1").removeClass("active");
-    }
-  }, 2000);
-});
+// $(document).ready(function () {
+//   setTimeout(function (e) {
+//     if (!$("#opt3").hasClass("active") != true) {
+//       console.log("good");
+//     } else {
+//       $("#plus").addClass("active");
+//       $("#aboutPage").removeClass("active");
+//       $("#opt1").removeClass("active");
+//     }
+//   }, 2000);
+// });
