@@ -1516,10 +1516,10 @@ video {
   #dp,
   #yearbook,
   #ybspread,
-  #interview .pamp1,
+  #interview,
+  .pamp1,
   .pamp2,
-  .pamp3,
-  .interview {
+  .pamp3 {
     max-width: 97vw;
   }
   #kunstahle,
