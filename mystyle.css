@@ -262,6 +262,7 @@ header {
 .col3 {
   margin-left: 15%;
   display: flex;
+  width: 7ch;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -1319,6 +1320,9 @@ video {
     width: 93vw;
     max-width: 93vw;
   }
+  .col3 {
+    width: 13ch;
+  }
   .col1 {
     width: 60ch;
     left: 0%;
@@ -1408,6 +1412,9 @@ video {
   #portrait {
     width: 70%;
     max-width: 50vw !important;
+  }
+  .col3 {
+    width: 7ch;
   }
   .linkabout {
     margin-top: 5%;
@@ -1558,6 +1565,9 @@ video {
   .basicinfo.basicdesignlink {
     width: 96vw;
     max-width: 96vw;
+  }
+  .col3 {
+    width: 11ch;
   }
   .basicbio {
     width: 93vw;
