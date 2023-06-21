@@ -602,7 +602,6 @@ input[type="reset"] {
 #buro {
   grid-column: 1;
   max-width: 50vw;
-
   position: relative;
 }
 #burowrap.burodesignlink {
