@@ -604,7 +604,6 @@ input[type="reset"] {
   max-width: 50vw;
 
   position: relative;
-  margin: auto;
 }
 #burowrap.burodesignlink {
   display: none;
@@ -1331,7 +1330,7 @@ video {
     pointer-events: none;
   }
   #briefbio {
-    width: 100vw;
+    width: 96vw;
   }
   .basicinfo.basicdesignlink {
     width: 96vw;
@@ -1469,7 +1468,7 @@ video {
     max-width: 93vw;
   }
   #briefbio {
-    width: 100vw;
+    width: 97vw;
   }
 }
 
