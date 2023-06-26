@@ -59,18 +59,7 @@ p {
 .tokyo {
   display: none;
 } */
-img,
-.human,
-.tokyo,
-.norwood,
-.providence,
-.sites,
-.basic,
-.read,
-.illo,
-.buro,
-video,
-.sort {
+img {
   /* grid-column: 1; */
   max-width: 50vw;
   padding-bottom: 0;
