@@ -62,7 +62,7 @@ p {
 img,
 video {
   /* grid-column: 1; */
-  max-width: 50vw;
+  max-width: 800px;
   padding-bottom: 0;
   padding-left: 0px;
   margin-left: 0px;
@@ -83,7 +83,7 @@ video {
 }
 #gifline {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   padding-bottom: 0;
   box-sizing: content-box;
   height: auto;
@@ -272,7 +272,7 @@ header {
   padding-top: 1rem;
   /* width: fit-content; */
 
-  max-width: 50vw;
+  max-width: 800px;
   margin-top: 2.2%;
   /* margin-bottom: 20%;  */
 }
@@ -293,7 +293,7 @@ a.linkabout {
 }
 #kunstgif {
   max-height: 60vh;
-  max-width: 50vw;
+  max-width: 800px;
 }
 
 #kitchen {
@@ -347,7 +347,7 @@ a.linkabout:visited {
   background-color: blue;
 }
 #gridsplit {
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: auto;
 
   display: grid;
@@ -370,7 +370,7 @@ a.linkabout:visited {
 #pamp3,
 #pamphlet {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 
   position: relative;
   /* margin: auto; */
@@ -385,7 +385,7 @@ a.linkabout:visited {
 }
 #kwrl {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 
   position: relative;
   /* margin: auto; */
@@ -413,7 +413,7 @@ input[type="reset"] {
   grid-column: 1;
 
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -451,7 +451,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -489,7 +489,7 @@ input[type="reset"] {
   grid-column: 1;
 
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -527,7 +527,7 @@ input[type="reset"] {
   grid-column: 1;
 
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -564,7 +564,7 @@ input[type="reset"] {
   grid-column: 1;
 
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -591,7 +591,7 @@ input[type="reset"] {
 }
 #buro {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #burowrap.burodesignlink {
@@ -604,7 +604,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -631,7 +631,7 @@ input[type="reset"] {
 }
 #knoll {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 
   position: relative;
   margin: auto;
@@ -646,7 +646,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -673,7 +673,7 @@ input[type="reset"] {
 }
 #interview {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   /* margin-top: -19vh; */
   position: relative;
 }
@@ -687,7 +687,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -714,7 +714,7 @@ input[type="reset"] {
 }
 #yearbook {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   /* margin-top: -19vh; */
   position: relative;
 }
@@ -728,7 +728,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -746,7 +746,7 @@ input[type="reset"] {
 
 #ybspread {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   margin-top: -19vh;
 
   position: relative;
@@ -761,7 +761,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -780,7 +780,7 @@ input[type="reset"] {
 #pamp1 {
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #pamp1wrap.pamp1designlink {
@@ -793,7 +793,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -811,7 +811,7 @@ input[type="reset"] {
 #pamp2 {
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #pamp2wrap.pamp2designlink {
@@ -824,7 +824,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -842,7 +842,7 @@ input[type="reset"] {
 #pamp3 {
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #pamp3wrap.pamp3designlink {
@@ -855,7 +855,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -872,7 +872,7 @@ input[type="reset"] {
 }
 #clique {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   margin-top: -19vh;
   position: relative;
 }
@@ -886,7 +886,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -913,7 +913,7 @@ input[type="reset"] {
 }
 #dp {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   margin-top: -19vh;
   position: relative;
 }
@@ -927,7 +927,7 @@ input[type="reset"] {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -954,18 +954,18 @@ input[type="reset"] {
 }
 #eventposters {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 }
 #humaninfrastructure {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 
   position: relative;
 }
 #sites {
   grid-column: 1;
 
-  max-width: 50vw;
+  max-width: 800px;
 
   position: relative;
   margin: auto;
@@ -977,7 +977,7 @@ video {
 #essay3,
 #essay6 {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
 }
 #ballwrap.balldesignlink {
   display: none;
@@ -985,7 +985,7 @@ video {
 
 #ball {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 .ballinfo {
@@ -995,7 +995,7 @@ video {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -1026,7 +1026,7 @@ video {
 
 #illo {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 .illoinfo {
@@ -1036,7 +1036,7 @@ video {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -1063,7 +1063,7 @@ video {
 }
 #info {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
@@ -1076,35 +1076,35 @@ video {
 }
 #prov {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
 #circvideo {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #norwood {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
 #basicholding {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #read {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
 #sortlater {
   grid-column: 1;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
 }
 #sortwrap.sortdesignlink {
@@ -1117,7 +1117,7 @@ video {
   display: block;
   grid-column: 1;
   width: 50vw;
-  max-width: 50vw;
+  max-width: 800px;
   position: relative;
   margin-bottom: 2vh;
   background-color: white;
@@ -1399,7 +1399,7 @@ video {
   }
   #portrait {
     width: 70%;
-    max-width: 50vw !important;
+    max-width: 800px !important;
   }
   .col3 {
     width: 7ch;
@@ -1528,7 +1528,7 @@ video {
   }
   #portrait {
     width: 70%;
-    max-width: 50vw !important;
+    max-width: 800px !important;
   }
   .linkabout {
     margin-top: 5%;
