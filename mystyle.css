@@ -953,6 +953,18 @@ input[type="reset"] {
   padding-bottom: 1px;
   transform: scale(1, 1.2);
 }
+#pamp1wrap {
+  aspect-ratio: 2063/2333;
+  height: 98%;
+}
+#pamp2wrap {
+  aspect-ratio: 2063/2333;
+  height: 98%;
+}
+#pamp3wrap {
+  aspect-ratio: 2063/2333;
+  height: 98%;
+}
 #dpwrap {
   height: 98%;
   aspect-ratio: 3000/2000;
