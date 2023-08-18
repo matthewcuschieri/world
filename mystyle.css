@@ -952,6 +952,24 @@ input[type="reset"] {
   padding-bottom: 1px;
   transform: scale(1, 1.2);
 }
+.dp img {
+  aspect-ratio: 3000/2000;
+}
+.pamp1 img {
+  aspect-ratio: 2063/2333;
+}
+.pamp2 img {
+  aspect-ratio: 2063/2333;
+}
+.pamp3 img {
+  aspect-ratio: 2063/2333;
+}
+.yearbook img {
+  aspect-ratio: 1500/1030;
+}
+.ybspread img {
+  aspect-ratio: 1500/1030;
+}
 #eventposters {
   grid-column: 1;
   max-width: 800px;
