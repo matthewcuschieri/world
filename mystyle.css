@@ -3,6 +3,12 @@
   overflow-x: clip;
   box-sizing: border-box;
 }
+background-image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 img,
 video {
   /* grid-column: 1; */
