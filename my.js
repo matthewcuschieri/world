@@ -11,15 +11,12 @@ var slideId = [
   "interview",
   "sort",
   "basic",
-
   "buro",
-
   "human",
   "clique",
   "read",
   "knoll",
   "sites",
-
   "illo",
   "providence",
   "norwood",
