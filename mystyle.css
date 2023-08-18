@@ -920,6 +920,7 @@ input[type="reset"] {
 #dpwrap.dpdesignlink {
   display: none;
 }
+
 .dpinfo {
   display: none;
 }
@@ -951,6 +952,10 @@ input[type="reset"] {
   padding-top: 0;
   padding-bottom: 1px;
   transform: scale(1, 1.2);
+}
+#dpwrap {
+  height: 98%;
+  aspect-ratio: 3000/2000;
 }
 .dp img {
   aspect-ratio: 3000/2000;
