@@ -956,12 +956,15 @@ input[type="reset"] {
 
 #pamp1wrap {
   height: 98%;
+  max-height: 2063px;
 }
 #pamp2wrap {
   height: 98%;
+  max-height: 2063px;
 }
 #pamp3wrap {
   height: 98%;
+  max-height: 2063px;
 }
 #dpwrap {
   height: 98%;
@@ -982,17 +985,43 @@ input[type="reset"] {
 .yearbook img {
   aspect-ratio: 1500/1030;
 }
+.interview img {
+  aspect-ratio: 3000/1957;
+}
+#interviewwrap {
+  aspect-ratio: 3000/1957;
+  height: 98%;
+}
 #yearbookwrap {
   aspect-ratio: 1500/1030;
   height: 98%;
 }
 .ybspread img {
-  aspect-ratio: 1500/1030;
+  aspect-ratio: 1000/687;
 }
 #ybspreadwrap {
-  aspect-ratio: 1500/1030;
+  aspect-ratio: 1000/687;
   height: 98%;
+  max-height: 1000px;
 }
+.read img {
+  aspect-ratio: 2547/1823;
+}
+#readwrap {
+  aspect-ratio: 2547/1823;
+  height: 98%;
+  max-height: 2547px;
+}
+
+.sort img {
+  aspect-ratio: 1667∶1188;
+}
+#ybspreadwrap {
+  aspect-ratio: 1667∶1188;
+  height: 98%;
+  max-height: 1667px;
+}
+
 #eventposters {
   grid-column: 1;
   max-width: 800px;
