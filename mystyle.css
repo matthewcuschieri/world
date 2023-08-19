@@ -3,7 +3,7 @@
   overflow-x: clip;
   box-sizing: border-box;
 }
-.dp > background-image {
+.bgblur {
   position: relative;
   background-size: cover;
   background-position: center;
