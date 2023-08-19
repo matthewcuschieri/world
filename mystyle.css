@@ -1038,6 +1038,12 @@ input[type="reset"] {
 #interviewwrap {
   aspect-ratio: 3000/1957;
 }
+.sort img {
+  aspect-ratio: 1667/1188;
+}
+#sortwrap {
+  aspect-ratio: 1667/1188;
+}
 #yearbookwrap {
   aspect-ratio: 1500/1030;
 }
