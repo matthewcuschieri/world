@@ -1006,10 +1006,13 @@ input[type="reset"] {
 }
 
 #pamp1wrap {
+  aspect-ratio: 2063/1500;
 }
 #pamp2wrap {
+  aspect-ratio: 2063/1500;
 }
 #pamp3wrap {
+  aspect-ratio: 2063/1500;
 }
 #dpwrap {
   aspect-ratio: 3000/2000;
