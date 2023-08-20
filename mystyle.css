@@ -9,6 +9,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.bgblurpamp {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 img,
 video {
   /* grid-column: 1; */
