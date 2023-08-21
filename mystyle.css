@@ -1066,6 +1066,12 @@ input[type="reset"] {
 #readwrap {
   aspect-ratio: 2547/1823;
 }
+.buro img {
+  aspect-ratio: 2042/1271;
+}
+#burowrap {
+  aspect-ratio: 2042/1271;
+}
 
 .sort img {
   aspect-ratio: 1667∶1188;
