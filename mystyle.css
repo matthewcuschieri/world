@@ -1072,6 +1072,12 @@ input[type="reset"] {
 #burowrap {
   aspect-ratio: 2042/1271;
 }
+.clique img {
+  aspect-ratio: 2000/1333;
+}
+#cliquewrap {
+  aspect-ratio: 2000/1333;
+}
 
 .sort img {
   aspect-ratio: 1667∶1188;
