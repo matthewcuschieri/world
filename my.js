@@ -6,10 +6,11 @@ var slideId = [
   "pamp1",
   "yearbook",
   "ybspread",
+  "sort",
   "pamp2",
   "pamp3",
   "interview",
-  "sort",
+
   "basic",
   "buro",
   "human",
