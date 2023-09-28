@@ -9,6 +9,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+U:hover {
+  text-decoration: none;
+}
+
 .bgblurpamp {
   position: relative;
   /* margin: none; */
@@ -336,8 +340,12 @@ header {
   /* margin-bottom: 20%;  */
 }
 .columns {
-  letter-spacing: -0.05vh;
-  font-size: 2vh !important;
+  letter-spacing: -0.02vh;
+  font-size: 1.1rem !important;
+  text-underline-offset: 0.13em;
+}
+u {
+  text-decoration-thickness: 1.9px;
 }
 a.linkabout {
   background-color: blue !important;
@@ -1287,15 +1295,18 @@ video {
   /* cursor: url("bb.png"), auto; */
   text-decoration: none;
   width: auto;
+  text-decoration-thickness: 1.9px;
 }
 .brian {
   cursor: url("images/bbsmall.png"), pointer;
 
   text-decoration: underline;
+  text-decoration-thickness: 1.9px;
 }
 .ben {
   cursor: url("images/blrsmall.png"), pointer;
   text-decoration: underline;
+  text-decoration-thickness: 1.9px;
 }
 .ben:hover {
   /* cursor: url("bb.png"), auto; */
