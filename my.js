@@ -10,14 +10,14 @@ var slideId = [
   "pamp2",
   "pamp3",
   "interview",
-
+  "sites",
   "basic",
   "buro",
   "human",
   "clique",
   "read",
   "knoll",
-  "sites",
+
   "illo",
   "providence",
   "norwood",
