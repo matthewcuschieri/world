@@ -2,14 +2,15 @@ var slideIndex = [
   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 ];
 var slideId = [
-  "dp",
-  "pamp1",
+  "sort",
   "yearbook",
   "ybspread",
-  "sort",
+  "dp",
+  "pamp1",
+  "interview",
   "pamp2",
   "pamp3",
-  "interview",
+
   "sites",
   "basic",
   "buro",
