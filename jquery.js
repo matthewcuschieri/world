@@ -129,3 +129,47 @@ if (img.complete) {
 } else {
   img.addEventListener("load", loaded);
 }
+
+$("#pbut1").on("click", function (e) {
+  $("#pamp1").toggleClass("active");
+  $("#pamp2").removeClass("active");
+  $("#pamp3").removeClass("active");
+  if (!$("#pamp1").hasClass("active")) {
+    $("#pamp2").removeClass("active");
+    $("#pamp3").removeClass("active");
+
+    if (!$("#pamp1:not(.active)").toggleClass("active")) {
+    }
+  }
+
+  e.preventDefault();
+});
+$("#pbut2").on("click", function (e) {
+  $("#pamp2").toggleClass("active");
+  $("#pamp1").removeClass("active");
+  $("#pamp3").removeClass("active");
+  if (!$("#pamp2").hasClass("active")) {
+    $("#pamp1").removeClass("active");
+    $("#pamp3").removeClass("active");
+
+    if (!$("#pamp2:not(.active)").toggleClass("active")) {
+    }
+  }
+
+  e.preventDefault();
+});
+$("#pbut3").on("click", function (e) {
+  $("#pamp3").toggleClass("active");
+  $("#pamp1").removeClass("active");
+  $("#pamp2").removeClass("active");
+
+  if (!$("#pamp3").hasClass("active")) {
+    $("#pamp1").removeClass("active");
+    $("#pamp2").removeClass("active");
+
+    if (!$("#pamp3:not(.active)").toggleClass("active")) {
+    }
+  }
+
+  e.preventDefault();
+});
