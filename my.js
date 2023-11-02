@@ -6,11 +6,11 @@ var slideId = [
   "yearbook",
   "ybspread",
   "dp",
+  "cadence",
   "pamp1",
-  "interview",
   "pamp2",
   "pamp3",
-
+  "interview",
   "sites",
   "basic",
   "buro",
@@ -18,7 +18,6 @@ var slideId = [
   "clique",
   "read",
   "knoll",
-
   "illo",
   "providence",
   "norwood",
@@ -41,6 +40,7 @@ showSlides(1, 14);
 showSlides(1, 15);
 showSlides(1, 16);
 showSlides(1, 17);
+showSlides(1, 18);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
