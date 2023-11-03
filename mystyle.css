@@ -2,9 +2,9 @@
   color: #000000;
   overflow-x: clip;
   box-sizing: border-box;
-  letter-spacing: -0.02em;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  /* letter-spacing: -0.02em; */
+  /* font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400; */
 }
 .bgblur {
   position: relative;
@@ -30,6 +30,16 @@ U:hover {
 }
 .smalltext {
   color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: normal;
+  /* padding-right: 40%; */
+  padding-bottom: 10px;
+  text-align: left;
+  /* padding-left: 10px; */
+  /* text-underline-offset: 0.13em; */
+  font-family: Helvetica, arial, sans-serif;
 }
 img,
 video {
@@ -443,14 +453,24 @@ a#aboutpagelink:hover {
   /* margin-bottom: 20%;  */
 }
 .columns {
-  font-size: 18px;
+  /* font-size: 18px;
   line-height: 1.2;
 
-  text-underline-offset: 0.13em;
+  text-underline-offset: 0.13em; */
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: normal;
+  /* padding-right: 40%; */
+  padding-bottom: 10px;
+  text-align: left;
+  /* padding-left: 10px; */
+  /* text-underline-offset: 0.13em; */
+  font-family: Helvetica, arial, sans-serif;
 }
 
 u {
-  text-decoration-thickness: 1.9px;
+  text-decoration-thickness: 1.5px;
 }
 a.linkabout {
   background-color: blue !important;
@@ -1437,8 +1457,16 @@ video {
 #briefbio,
 #togglebio {
   margin-top: 0;
-
   font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: normal;
+  /* padding-right: 40%; */
+  padding-bottom: 10px;
+  text-align: left;
+  /* padding-left: 10px; */
+  /* text-underline-offset: 0.13em; */
+  font-family: Helvetica, arial, sans-serif;
   padding-top: 0.3rem;
   z-index: 3;
 }
