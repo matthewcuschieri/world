@@ -96,7 +96,7 @@ video {
   }
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   line-height: 1.2;
 }
 #portrait {
