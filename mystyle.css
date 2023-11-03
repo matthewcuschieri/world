@@ -2,7 +2,9 @@
   color: #000000;
   overflow-x: clip;
   box-sizing: border-box;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 .bgblur {
   position: relative;
@@ -85,7 +87,7 @@ video {
 }
 body {
   overflow-x: hidden;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 #portrait {
   width: 44% !important;
@@ -105,7 +107,7 @@ body {
 }
 ::selection {
   background-color: transparent;
-  color: #000000;
+  color: #898989;
 }
 p {
   display: inline;
@@ -124,8 +126,6 @@ p {
 #opt3.active {
   display: inline;
   transform: translateY(25vh);
-
-  line-height: 3.4mm;
 }
 #opt2,
 #opt3 {
@@ -310,12 +310,12 @@ p {
   user-select: none;
 }
 html {
-  font-family: Helvetica, Arial, sans-serif;
   color: black;
   -webkit-text-size-adjust: 100%;
   /* background-color: whitesmoke; */
 }
 header {
+  padding-top: 0.2rem;
   display: flex;
 }
 .col1,
@@ -360,6 +360,9 @@ header {
   display: block;
 
   cursor: pointer;
+}
+a#aboutpagelink:hover {
+  text-decoration: underline;
 }
 #designlink {
   text-decoration: underline;
@@ -440,10 +443,9 @@ header {
   /* margin-bottom: 20%;  */
 }
 .columns {
-  font-weight: inherit;
-  line-height: 1.25;
-  font-size: 1.15em;
-  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+
   text-underline-offset: 0.13em;
 }
 
@@ -1435,7 +1437,7 @@ video {
 #briefbio,
 #togglebio {
   margin-top: 0;
-  font-weight: inherit;
+
   font-size: 16px;
   padding-top: 0.3rem;
   z-index: 3;
