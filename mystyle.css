@@ -244,8 +244,7 @@ p {
 
 .nexthalf {
   opacity: 50%;
-  right: 7px;
-  border-radius: 3px 0 0 3px;
+  right: 0px;
 }
 /* On hover, add a grey background color */
 
@@ -319,7 +318,7 @@ p {
   position: absolute;
   top: 0;
   filter: invert(100%);
-  width: 45%;
+  width: 50%;
   height: 100%;
   color: rgb(0, 0, 0);
   text-align: center;
