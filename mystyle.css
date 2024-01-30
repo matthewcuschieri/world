@@ -29,17 +29,17 @@ U:hover {
   position: relative;
 }
 .smalltext {
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  line-height: 1.2;
+  color: rgb(171 171 171);
+  font-size: 15px;
+  line-height: 1.4;
   letter-spacing: 1px;
-  font-weight: normal;
+  font-weight: lighter;
   /* padding-right: 40%; */
   padding-bottom: 10px;
   text-align: left;
   /* padding-left: 10px; */
   /* text-underline-offset: 0.13em; */
-  font-family: Helvetica, arial, sans-serif;
+  font-family: helvetica;
 }
 img,
 video {
@@ -458,25 +458,25 @@ a#aboutpagelink:hover {
   margin-top: 2.2%;
   /* margin-bottom: 20%;  */
 }
-.columns {
-  /* font-size: 18px;
-  line-height: 1.2;
 
-  text-underline-offset: 0.13em; */
+.columns {
+  /* text-decoration: underline dotted gray; */
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: 1px;
-  font-weight: normal;
+  font-weight: lighter;
   /* padding-right: 40%; */
   padding-bottom: 10px;
   text-align: left;
   /* padding-left: 10px; */
-  /* text-underline-offset: 0.13em; */
-  font-family: Helvetica, arial, sans-serif;
+  text-underline-offset: 0.13em;
+  font-family: Courier New;
 }
 
 u {
-  text-decoration-thickness: 1.5px;
+  text-decoration-color: #000000;
+  text-decoration-thickness: 1px;
+  text-decoration: underline dotted;
 }
 a.linkabout {
   background-color: blue !important;
@@ -1472,7 +1472,7 @@ video {
   text-align: left;
   /* padding-left: 10px; */
   /* text-underline-offset: 0.13em; */
-  font-family: Helvetica, arial, sans-serif;
+  font-family: Courier New;
   padding-top: 0.3rem;
   z-index: 3;
 }
@@ -1486,12 +1486,14 @@ video {
   cursor: url("images/bbsmall.png"), pointer;
 
   text-decoration: underline;
-  text-decoration-thickness: 1.9px;
+  text-decoration-thickness: 1px;
+  text-decoration: underline dotted;
 }
 .ben {
   cursor: url("images/blrsmall.png"), pointer;
   text-decoration: underline;
-  text-decoration-thickness: 1.9px;
+  text-decoration-thickness: 1px;
+  text-decoration: underline dotted;
 }
 .ben:hover {
   /* cursor: url("bb.png"), auto; */
@@ -1789,7 +1791,7 @@ video {
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 800px) and (max-width: 850px) {
   #gridsplit {
     display: grid;
     grid-template-columns: 1fr;
