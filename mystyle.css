@@ -471,7 +471,7 @@ a#aboutpagelink:hover {
   padding-bottom: 10px;
   text-align: left;
   position: fixed;
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
   /* padding-left: 10px; */
   text-underline-offset: 0.13em;
   font-family: Courier New;
