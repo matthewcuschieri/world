@@ -434,7 +434,7 @@ a#aboutpagelink:hover {
 .col3 {
   margin-left: 15%;
   display: flex;
-  width: 7ch;
+  /* width: 7ch; */
   flex-direction: column;
   justify-content: space-between;
 }
@@ -1731,7 +1731,7 @@ video {
     max-width: 800px !important;
   }
   .col3 {
-    width: 7ch;
+    /* width: 7ch; */
   }
   .linkabout {
     margin-top: 5%;
