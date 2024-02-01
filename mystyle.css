@@ -136,7 +136,7 @@ p {
 #opt3.active {
   display: inline;
   transform: translateY(25vh);
-  background-color: white;
+  /* background-color: white; */
 }
 #opt2,
 #opt3 {
