@@ -567,11 +567,10 @@ a.linkabout:visited {
 #gridsplit {
   /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: auto;
-
   display: grid;
   row-gap: 20vh;
-
-  padding-top: 40vh;
+  /* padding-top: 40vh; */
+  justify-content: end;
 }
 
 #kunstahle {
@@ -612,6 +611,7 @@ a.linkabout:visited {
   display: grid;
   grid-column: 1fr 1fr;
   padding: 1rem 1rem 1rem 0rem;
+  justify-content: end;
 }
 
 #essay4 {
