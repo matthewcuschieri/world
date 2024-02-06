@@ -1531,7 +1531,7 @@ video {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin-top: 0vh;
-    justify-content: none;
+    justify-content: unset;
   }
   .columns {
     background-color: white;
@@ -1700,7 +1700,7 @@ video {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     /* margin-top: 47vh; */
-    justify-content: none;
+    justify-content: unset;
   }
   .columns {
     /* background-color: white; */
