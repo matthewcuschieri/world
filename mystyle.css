@@ -1537,7 +1537,7 @@ video {
   }
   .columns {
     background-color: white;
-    width: max-content;
+
     position: relative;
   }
   .col1 {
@@ -1596,9 +1596,16 @@ video {
   #interview,
   #pamp1,
   #pamp2,
-  #pamp3,
+  #pamp3 {
+    max-width: 96vw;
+  }
   #doublerow {
     max-width: 96vw;
+    width: 96vw;
+    justify-content: unset;
+  }
+  #pamphlet {
+    max-width: 185px;
   }
   #kunstahle,
   #circvideo,
@@ -1683,7 +1690,7 @@ video {
     pointer-events: none;
   }
   #briefbio {
-    width: 96vw;
+    width: fit-content;
   }
   .basicinfo.basicdesignlink {
     width: 96vw;
@@ -1707,7 +1714,7 @@ video {
   }
   .columns {
     /* background-color: white; */
-    width: max-content;
+    /* width: max-content; */
   }
   img,
   .sites,
