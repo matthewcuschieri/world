@@ -1,6 +1,6 @@
 * {
   color: #000000;
-  overflow-x: clip;
+  /* overflow-x: clip; */
   box-sizing: border-box;
   /* letter-spacing: -0.02em; */
   /* font-family: Helvetica, Arial, sans-serif;
@@ -574,7 +574,8 @@ a.linkabout:visited {
   display: grid;
   row-gap: 20vh;
   /* padding-top: 40vh; */
-  justify-content: end;
+  justify-content: center;
+  margin-left: 35vw;
 }
 
 #kunstahle {
@@ -1531,6 +1532,7 @@ video {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin-top: 0vh;
+    margin-left: 0vw;
     justify-content: unset;
   }
   .columns {
@@ -1699,6 +1701,7 @@ video {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin-left: 0vw;
     /* margin-top: 47vh; */
     justify-content: unset;
   }
@@ -1834,9 +1837,10 @@ video {
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 800px) and (max-width: 850px) {
+@media (min-width: 800px) and (max-width: 930px) {
   #gridsplit {
     display: grid;
+    margin-left: 0vw;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
