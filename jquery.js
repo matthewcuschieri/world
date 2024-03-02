@@ -82,10 +82,10 @@ $(".about").on("click", function (e) {
 });
 $("#minus").on("click", function (e) {
   $("#opt2").addClass("active");
-  $("#aboutPage").removeClass("active");
+  // $("#aboutPage").removeClass("active");
   $("#opt3").removeClass("active");
-  $("#opt1").removeClass("active");
-  $("#plus").addClass("active");
+  // $("#opt1").removeClass("active");
+  // $("#plus").addClass("active");
   $("#minus").toggleClass("active");
 
   e.preventDefault();
