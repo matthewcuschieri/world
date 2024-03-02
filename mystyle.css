@@ -48,7 +48,7 @@ U:hover {
   letter-spacing: 1px;
   font-weight: lighter;
   /* padding-right: 40%; */
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   text-align: left;
   /* padding-left: 10px; */
   /* text-underline-offset: 0.13em; */
@@ -1504,7 +1504,7 @@ video {
   letter-spacing: 1px;
 
   /* padding-right: 40%; */
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   text-align: left;
   /* padding-left: 10px; */
   /* text-underline-offset: 0.13em; */
