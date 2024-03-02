@@ -1,4 +1,4 @@
-var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 var slideId = [
   "sort",
   "yearbook",
@@ -39,7 +39,7 @@ showSlides(1, 13);
 showSlides(1, 14);
 showSlides(1, 15);
 showSlides(1, 16);
-// showSlides(1, 17);
+showSlides(1, 17);
 // showSlides(1, 18);
 
 function plusSlides(n, no) {
