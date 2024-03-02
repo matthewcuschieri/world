@@ -6,6 +6,12 @@
   /* font-family: Helvetica, Arial, sans-serif;
   font-weight: 400; */
 }
+@font-face {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://use.typekit.net/rkd7rtk.css);
+}
 /* img {
   box-shadow: 0.2rem 0.2rem 0.4rem #7a7a7a, -0.2rem -0.2rem 0.4rem #fff,
     inset 0 0 #7a7a7a, inset 0rem 0rem #fff;
@@ -495,7 +501,7 @@ a#aboutpagelink:hover {
   /* mix-blend-mode: overlay; */
   padding-left: 10px;
   text-underline-offset: 0.13em;
-  font-family: Helvetica;
+  font-family: "neue-haas-grotesk-display", Helvetica;
 }
 
 u {
@@ -1493,13 +1499,13 @@ video {
   font-size: 13px;
   line-height: 1.2;
   letter-spacing: 1px;
-  font-weight: normal;
+
   /* padding-right: 40%; */
   padding-bottom: 10px;
   text-align: left;
   /* padding-left: 10px; */
   /* text-underline-offset: 0.13em; */
-  font-family: Helvetica;
+  font-family: "neue-haas-grotesk-display", Helvetica;
   padding-top: 0.3rem;
   z-index: 3;
 }
