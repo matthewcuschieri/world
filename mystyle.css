@@ -5,6 +5,9 @@
   /* letter-spacing: -0.02em; */
   /* font-family: Helvetica, Arial, sans-serif;
   font-weight: 400; */
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 @font-face {
   font-family: "neue-haas-grotesk-display", sans-serif;
