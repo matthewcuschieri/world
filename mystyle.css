@@ -1496,6 +1496,10 @@ video {
   padding-bottom: 1px;
   transform: scale(1, 1.2);
 }
+#briefbio p {
+  font-weight: 500;
+  color: rgb(40, 40, 40);
+}
 #briefbio,
 #togglebio {
   margin-top: 0;
